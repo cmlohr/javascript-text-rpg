@@ -44,7 +44,7 @@ function selectOption(option) {
 const textNodes = [
 	{
 		id: 1,
-		text: 'Welcome to my hall of choices.  In a nondescript room, there lays a Redpill.  What do you do?',
+		text: 'In a nondescript room, there lays a Redpill on a small round table.  Beyond that is a plain wooden door.  What do you do?',
 		options: [
 			{
 				text: 'Ha!  You saw this movie!  Take the Redpill.',
@@ -59,7 +59,7 @@ const textNodes = [
 	},
 	{ 
 		id: 2,
-		text: 'You venture forth in foolish confidence.  There ahead is a kiosk, offering to trades for your precious Redpill.  There is only a small wooden cup and a dull key to trade for.',
+		text: 'You venture forth in bold confidence.  Ahead of you is a kiosk offering to trade for your Redpill.  There is only a small wooden cup and a silver key on display.',
 		options: [
 			{ 
 				text: 'Trade the Redpill for the key.',
@@ -84,15 +84,15 @@ const textNodes = [
 		text: 'Confident in your choice you move on to the next room.  In the next room you find three doors.',
 		options: [
 		{
-			text: 'Door 1 is to your left, its a white door with cracked paint, it feels cold to the touch.',
+			text: 'To your left is a white door with cracked paint, it feels cold to the touch.',
 			nextText: 4
 		},
 		{
-			text: 'Door 2 appears to be freshly painted in blood.',
+			text: 'The door in the middle appears to be freshly painted in blood.',
 			nextText: 5
 		},
 		{
-			text: 'Door 3 is old and wooden, it puts off the pungent oder of damp woods.',
+			text: 'To your right is an old wooden door, it puts off the earthy tones of rotting wood.',
 			nextText: 6
 		}
 	]
